@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://isaes.com.tr/</loc>
+    <lastmod>2019-03-09T21:59:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://isaes.com.tr/posts/</loc>
+    <lastmod>2019-03-09T21:59:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://isaes.com.tr/posts/2019-03-09-some-useful-git-commands/</loc>
+    <lastmod>2019-03-09T21:59:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://isaes.com.tr/about/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://isaes.com.tr/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://isaes.com.tr/tags/</loc>
+  </url>
+  
+</urlset>

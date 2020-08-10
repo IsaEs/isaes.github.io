@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IsaEs</title>
+    <link>http://isaes.com.tr/</link>
+    <description>Recent content on IsaEs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Mar 2019 21:59:00 +0300</lastBuildDate>
+    
+	<atom:link href="http://isaes.com.tr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Some Useful Git Commands</title>
+      <link>http://isaes.com.tr/posts/2019-03-09-some-useful-git-commands/</link>
+      <pubDate>Sat, 09 Mar 2019 21:59:00 +0300</pubDate>
+      
+      <guid>http://isaes.com.tr/posts/2019-03-09-some-useful-git-commands/</guid>
+      <description>Gist-Link</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://isaes.com.tr/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://isaes.com.tr/about/</guid>
+      <description>Personal Details   İsa Eş
+  Ümraniye/İstanbul
+  merhaba@isaes.com.tr
+  +905379761784
+   Education   Bachelor of Science: Computer Engineering
+  Gebze Techinal University / Turkey
+  2013 to 2018
+  GPA:2.54
+   Experience Huawei Turkey R&amp;amp;D Center / Asst.Software Engineer / 2018/11-Current
+Understanding Telecom standard KPI measurements. Analyzing and understanding of Huawei Big Data solution for Telecommunication companies and developing enterprise applications for telecom companies.</description>
+    </item>
+    
+  </channel>
+</rss>
