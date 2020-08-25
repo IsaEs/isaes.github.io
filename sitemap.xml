@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://isaes.com.tr/posts/2020-08-14-file-operation-examples-in-nodejs/</loc>
+    <lastmod>2020-08-14T18:43:00+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://isaes.com.tr/</loc>
-    <lastmod>2019-03-09T21:59:00+03:00</lastmod>
+    <lastmod>2020-08-14T18:43:00+03:00</lastmod>
   </url>
   
   <url>
     <loc>http://isaes.com.tr/posts/</loc>
+    <lastmod>2020-08-14T18:43:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://isaes.com.tr/tags/git/</loc>
     <lastmod>2019-03-09T21:59:00+03:00</lastmod>
   </url>
   
@@ -18,8 +28,8 @@
   </url>
   
   <url>
-    <loc>http://isaes.com.tr/about/</loc>
-    <priority>0</priority>
+    <loc>http://isaes.com.tr/tags/</loc>
+    <lastmod>2019-03-09T21:59:00+03:00</lastmod>
   </url>
   
   <url>
@@ -27,7 +37,7 @@
   </url>
   
   <url>
-    <loc>http://isaes.com.tr/tags/</loc>
+    <loc>http://isaes.com.tr/about/</loc>
   </url>
   
 </urlset>
