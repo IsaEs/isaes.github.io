@@ -6,8 +6,8 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Reading and writing files is from the first requirement of programing. When it comes to a point you will probably have to code. When I startted to computer engineering our first week assigments includes reading and writing from file and includes some calculations. From then in my jobs and project i oftenly need reading and writing from filesytem.
-I genuinely love to use javascript. Its my first personal choice for when i need to create some scripting solution for my tasks." />
+<meta name="description" content="Reading and writing files is from the first requirement of programming. When it comes to a point you will probably have to code. When I started to computer engineering our first-week assignments include reading and writing from file and includes some calculations. From then in my jobs and project, i often need reading and writing from the filesystem.
+I genuinely love to use javascript. It&amp;rsquo;s my first personal choice for when I need to create some scripting solution for my tasks." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="http://isaes.com.tr/posts/2020-08-14-file-operation-examples-in-nodejs/" />
@@ -48,8 +48,8 @@ I genuinely love to use javascript. Its my first personal choice for when i need
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="File operation examples in NodeJs :: IsaEs">
-<meta property="og:description" content="Reading and writing files is from the first requirement of programing. When it comes to a point you will probably have to code. When I startted to computer engineering our first week assigments includes reading and writing from file and includes some calculations. From then in my jobs and project i oftenly need reading and writing from filesytem.
-I genuinely love to use javascript. Its my first personal choice for when i need to create some scripting solution for my tasks." />
+<meta property="og:description" content="Reading and writing files is from the first requirement of programming. When it comes to a point you will probably have to code. When I started to computer engineering our first-week assignments include reading and writing from file and includes some calculations. From then in my jobs and project, i often need reading and writing from the filesystem.
+I genuinely love to use javascript. It&amp;rsquo;s my first personal choice for when I need to create some scripting solution for my tasks." />
 <meta property="og:url" content="http://isaes.com.tr/posts/2020-08-14-file-operation-examples-in-nodejs/" />
 <meta property="og:site_name" content="File operation examples in NodeJs" />
 
@@ -143,9 +143,9 @@ I genuinely love to use javascript. Its my first personal choice for when i need
   
 
   <div class="post-content"><div>
-      <p>Reading and writing files is  from the first requirement of programing. When it comes to a point you will probably have to code. When I startted to computer engineering our first week assigments includes reading and writing from file and includes some calculations. From then in my jobs and project i oftenly need reading and writing from filesytem.</p>
-<p>I genuinely love to use javascript. Its my first personal choice for when i need to create some scripting solution for my tasks. In this post I want to show you some file operations showed million times in different blog posts.</p>
-<p>For interacting with file system with nodejs we need to use <em>fs</em> module. There is sync and asyncronous way to this operations.</p>
+      <p>Reading and writing files is from the first requirement of programming. When it comes to a point you will probably have to code. When I started to computer engineering our first-week assignments include reading and writing from file and includes some calculations. From then in my jobs and project, i often need reading and writing from the filesystem.</p>
+<p>I genuinely love to use javascript. It&rsquo;s my first personal choice for when I need to create some scripting solution for my tasks. In this post, I want to show you some file operations showed million times in different blog posts.</p>
+<p>For interacting with a file system with nodejs we need to use <em>fs</em> module. There are sync and asynchronous way to these operations.</p>
 <ul>
 <li>
 <p>fs</p>
@@ -166,7 +166,7 @@ I genuinely love to use javascript. Its my first personal choice for when i need
 });
 </code></pre></div></li>
 </ul>
-<p>There is disadvantage of using readFile and readFileSync these methods buffer all file into memory. <strong>If we want to minimize our memory usage we need to use streams.</strong></p>
+<p>There is a disadvantage of using readFile and readFileSync these methods buffer all files into memory. <strong>If we want to minimize our memory usage we need to use streams.</strong></p>
 <ul>
 <li>
 <p>writeFileSync</p>
@@ -180,7 +180,7 @@ I genuinely love to use javascript. Its my first personal choice for when i need
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">fs</span>.<span style="color:#a6e22e">writeFile</span>(<span style="color:#e6db74">&#39;huge_volume_data.txt&#39;</span>, <span style="color:#e6db74">&#39;Users data volume usage!&#39;</span>);
 </code></pre></div></li>
 </ul>
-<p>These methods are more seached methods for nodejs filesystem in google trends when i writing this blog. fs is a huge module and there is much more than this you can do almost all  posix standart operations.</p>
+<p>These methods are more searched methods for nodejs filesystem in google trends when I writing this blog. fs is a huge module and there is much more than this you can do almost all POSIX standard operations.</p>
 <p>
 <figure class="center">
     <img src="/img/nodejs-fs-trends.png" alt="Google Trends">
@@ -188,17 +188,17 @@ I genuinely love to use javascript. Its my first personal choice for when i need
 </figure>
 </p>
 </p>
-<p>For example if need access time of and file we can do with Stats in posix standart access time defined in sys/stat.h st_atime. We can easily achive access time with ls -lu in command line.
-and with nodejs we need to obtain stats object for path.</p>
+<p>For example, if need access time off and the file we can do with Stats in POSIX standard access time defined in sys/stat.h st_atime. We can easily achieve access time with ls -lu in the command line.
+and with nodejs, we need to obtain stats object for a path.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">fs</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#34;fs&#34;</span>)
 <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">stats</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">fs</span>.<span style="color:#a6e22e">lstatSync</span>(<span style="color:#e6db74">&#34;user_info.dat&#34;</span>) <span style="color:#75715e">// Return Stats object
 </span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">stats</span>.<span style="color:#a6e22e">atime</span>) <span style="color:#75715e">//2020-08-14T21:42:47.747Z Access Time
-</span></code></pre></div><p>And also we can check other properties of path like if its directory,file,socket or symbolink link.</p>
+</span></code></pre></div><p>And also we can check other properties of a path like if its directory, file, socket, or symlink link.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">stats</span>.<span style="color:#a6e22e">isFile</span>()) <span style="color:#75715e">//true
 </span><span style="color:#75715e"></span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">stats</span>.<span style="color:#a6e22e">isSocket</span>()) <span style="color:#75715e">// false
 </span><span style="color:#75715e"></span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">stats</span>.<span style="color:#a6e22e">isSymbolicLink</span>()) <span style="color:#75715e">// false
 </span><span style="color:#75715e"></span>  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">stats</span>.<span style="color:#a6e22e">isDirectory</span>()) <span style="color:#75715e">// false
-</span></code></pre></div><p>For this blog post i want to show sample code for reading file using streams. This examples read from stream byte by byte and log file in everyline.</p>
+</span></code></pre></div><p>For this blog post, I want to show a sample code for reading a file using streams. These examples are read from stream byte by byte and log file in every line.</p>
 <ul>
 <li>
 <p>createReadStream</p>
