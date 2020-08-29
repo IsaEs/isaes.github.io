@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IsaEs</title>
-    <link>https://isaes.com.tr/</link>
+    <link>https://isaes.com.tr/tr/</link>
     <description>Recent content on IsaEs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 14 Aug 2020 18:43:00 +0300</lastBuildDate>
     
-	<atom:link href="https://isaes.com.tr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://isaes.com.tr/tr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>File operation examples in NodeJs</title>
-      <link>https://isaes.com.tr/posts/2020-08-14-file-operation-examples-in-nodejs/</link>
+      <title>NodeJs ile dosya islemleri</title>
+      <link>https://isaes.com.tr/tr/posts/2020-08-14-file-operation-examples-in-nodejs/</link>
       <pubDate>Fri, 14 Aug 2020 18:43:00 +0300</pubDate>
       
-      <guid>https://isaes.com.tr/posts/2020-08-14-file-operation-examples-in-nodejs/</guid>
+      <guid>https://isaes.com.tr/tr/posts/2020-08-14-file-operation-examples-in-nodejs/</guid>
       <description>Reading and writing files is from the first requirement of programming. When it comes to a point you will probably have to code. When I started to computer engineering our first-week assignments include reading and writing from file and includes some calculations. From then in my jobs and project, i often need reading and writing from the filesystem.
 I genuinely love to use javascript. It&amp;rsquo;s my first personal choice for when I need to create some scripting solution for my tasks.</description>
     </item>
     
     <item>
-      <title>Git Commands Cheat Sheet</title>
-      <link>https://isaes.com.tr/posts/2019-03-09-some-useful-git-commands/</link>
+      <title>Git komutları listesi</title>
+      <link>https://isaes.com.tr/tr/posts/2019-03-09-some-useful-git-commands/</link>
       <pubDate>Sat, 09 Mar 2019 21:59:00 +0300</pubDate>
       
-      <guid>https://isaes.com.tr/posts/2019-03-09-some-useful-git-commands/</guid>
-      <description>I sometimes struggle remembering simple commands and need to look some cheats sheet.These are the ones I have kept from the moment when started to using git. I started to learn git little bit late then others but after started to using git. I kept commands on my joplin book and I try to keep this gist updated. Maybe it can help you also.
+      <guid>https://isaes.com.tr/tr/posts/2019-03-09-some-useful-git-commands/</guid>
+      <description>&amp;ldquo;Bazen basit komutları hatırmalada zorluk yaşıyorum. Sık sık kullansam bile hatırlayamadığım şeyler olabileceği için genelde bunları not alırım ve internette aramak yerine oradan bakarım. Git öğrenmeye üniversite üçte başlasam ve geç kaldığımı düşünsemde o günden beri ihtiyaçım oldukça öğrenmeye not tutmaya devam ediyorum. Joplin notebookumda sakladığım git komutların bazılarını github giste güncel tutmaya çalısıyorum. Belki aralarından bazıları size de yardımcı olabilir.&amp;rdquo;
 Gist-Link  </description>
     </item>
     
     <item>
-      <title>Resume</title>
-      <link>https://isaes.com.tr/about/</link>
+      <title>Ozgecmis</title>
+      <link>https://isaes.com.tr/tr/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://isaes.com.tr/about/</guid>
+      <guid>https://isaes.com.tr/tr/about/</guid>
       <description>Personal Details   İsa Eş
   Ümraniye/İstanbul
   merhaba@isaes.com.tr
-  +90 (537)-976-ONE-SEVEN-84
+  +90 (537) 976-ON-YEDI-84
    Experience Huawei Turkey R&amp;amp;D Center / Asst.Software Engineer / 2018/11-Current Understanding Telecom standard KPI measurements. Analyzing and understanding of Huawei Big Data solution for Telecommunication companies and developing enterprise applications for telecom companies.
 Big Data analysis project developments for different telecom companies.
 Roles:

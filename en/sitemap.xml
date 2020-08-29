@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://isaes.com.tr/posts/2020-08-14-file-operation-examples-in-nodejs/</loc>
+    <lastmod>2020-08-14T18:43:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://isaes.com.tr/tr/posts/2020-08-14-file-operation-examples-in-nodejs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://isaes.com.tr/posts/2020-08-14-file-operation-examples-in-nodejs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://isaes.com.tr/</loc>
+    <lastmod>2020-08-14T18:43:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://isaes.com.tr/tr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://isaes.com.tr/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://isaes.com.tr/posts/</loc>
+    <lastmod>2020-08-14T18:43:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://isaes.com.tr/tr/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://isaes.com.tr/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://isaes.com.tr/tags/git/</loc>
+    <lastmod>2019-03-09T21:59:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://isaes.com.tr/tr/tags/git/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://isaes.com.tr/tags/git/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://isaes.com.tr/posts/2019-03-09-some-useful-git-commands/</loc>
+    <lastmod>2019-03-09T21:59:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://isaes.com.tr/tr/posts/2019-03-09-some-useful-git-commands/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://isaes.com.tr/posts/2019-03-09-some-useful-git-commands/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://isaes.com.tr/tags/</loc>
+    <lastmod>2019-03-09T21:59:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://isaes.com.tr/tr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://isaes.com.tr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://isaes.com.tr/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://isaes.com.tr/tr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://isaes.com.tr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://isaes.com.tr/about/</loc>
+  </url>
+  
+</urlset>

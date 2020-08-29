@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on IsaEs</title>
+    <link>https://isaes.com.tr/tr/tags/git/</link>
+    <description>Recent content in git on IsaEs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Mar 2019 21:59:00 +0300</lastBuildDate>
+    
+	<atom:link href="https://isaes.com.tr/tr/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git komutları listesi</title>
+      <link>https://isaes.com.tr/tr/posts/2019-03-09-some-useful-git-commands/</link>
+      <pubDate>Sat, 09 Mar 2019 21:59:00 +0300</pubDate>
+      
+      <guid>https://isaes.com.tr/tr/posts/2019-03-09-some-useful-git-commands/</guid>
+      <description>&amp;ldquo;Bazen basit komutları hatırmalada zorluk yaşıyorum. Sık sık kullansam bile hatırlayamadığım şeyler olabileceği için genelde bunları not alırım ve internette aramak yerine oradan bakarım. Git öğrenmeye üniversite üçte başlasam ve geç kaldığımı düşünsemde o günden beri ihtiyaçım oldukça öğrenmeye not tutmaya devam ediyorum. Joplin notebookumda sakladığım git komutların bazılarını github giste güncel tutmaya çalısıyorum. Belki aralarından bazıları size de yardımcı olabilir.&amp;rdquo;
+Gist-Link  </description>
+    </item>
+    
+  </channel>
+</rss>
