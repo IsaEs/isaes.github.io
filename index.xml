@@ -6,19 +6,10 @@
     <description>Recent content on IsaEs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Aug 2020 11:39:00 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2020 18:43:00 +0300</lastBuildDate>
     
 	<atom:link href="https://isaes.com.tr/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>WSL ile Linux geliştirme ortamı hazırlama</title>
-      <link>https://isaes.com.tr/posts/2020-09-05-setting-up-wsl-enviroment/</link>
-      <pubDate>Sat, 29 Aug 2020 11:39:00 +0300</pubDate>
-      
-      <guid>https://isaes.com.tr/posts/2020-09-05-setting-up-wsl-enviroment/</guid>
-      <description>WSL yani Windows Subsystem for Linux&amp;rsquo;in ilk sürümü yaklaşık 4 sene önce son kararlı ikinci sürümü wsl2 ise bir sene önce piyasaya sürüldü. Ben ise wsl&amp;rsquo;i yaklaşık 3 aydır kullanıyorum ilk deneyimlerim ise gayet sorunsuzdu. Şuan kişisel projelerimde geliştirme ortamı olarak tamamen WSL kullanıyorum. Öncesinde geliştirme ortamı olarak kullandığım dual-boot linuxuma girmeme nerdeyse hiç gerek kalmadı diyebilirim. Windows WSL ile beni kendine kazandı. Bu yazımda ise Visual Studio Code ve WSL ve Windows terminal uygulamaları kullanarak kendimize işlevsel ve hoş görünümlü bir geliştirme ortamı hazırlayacağımızı anlatmaya çalışacağım.</description>
-    </item>
     
     <item>
       <title>File operation examples in NodeJs</title>

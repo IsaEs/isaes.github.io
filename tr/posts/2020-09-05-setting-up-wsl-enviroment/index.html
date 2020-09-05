@@ -6,7 +6,7 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="WSL yani Windows Subsystem for Linux&amp;rsquo;in ilk sürümü yaklaşık 4 sene önce son kararlı ikinci sürümü wsl2 ise bir sene önce piyasaya sürüldü. Ben ise wsl&amp;rsquo;i yaklaşık 3 aydır kullanıyorum ilk deneyimlerim ise gayet sorunsuzdu. Şuan kişisel projelerimde geliştirme ortamı olarak tamamen WSL kullanıyorum. Öncesinde geliştirme ortamı olarak kullandığım dual-boot linuxuma girmeme nerdeyse hiç gerek kalmadı diyebilirim. Windows WSL ile beni kendine kazandı. Bu yazımda ise Visual Studio Code ve WSL ve Windows terminal uygulamaları kullanarak kendimize işlevsel ve hoş görünümlü bir geliştirme ortamı hazırlayacağımızı anlatmaya çalışacağım." />
+<meta name="description" content="WSL, yani Windows Subsystem for Linux&amp;rsquo;un ilk sürümü yaklaşık 4 sene önce son kararlı ikinci sürümü wsl2 ise bir sene önce piyasaya sürüldü. Ben ise wsl&amp;rsquo;i yaklaşık 3 aydır kullanıyorum ilk deneyimlerim ise gayet sorunsuzdu. Şuan kişisel projelerimde geliştirme ortamı olarak tamamen WSL kullanıyorum. Öncesinde geliştirme ortamı olarak kullandığım dual-boot linuxuma girmeme nerdeyse hiç gerek kalmadı diyebilirim. Windows WSL ile beni kendine kazandı. Bu yazımda ise Visual Studio Code ve WSL ve Windows terminal uygulamaları kullanarak kendimize işlevsel ve hoş görünümlü bir geliştirme ortamı hazırlayacağımızı anlatmaya çalışacağım." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="https://isaes.com.tr/tr/posts/2020-09-05-setting-up-wsl-enviroment/" />
@@ -47,7 +47,7 @@
 <meta property="og:locale" content="tr" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="WSL ile Linux geliştirme ortamı hazırlama :: IsaEs">
-<meta property="og:description" content="WSL yani Windows Subsystem for Linux&amp;rsquo;in ilk sürümü yaklaşık 4 sene önce son kararlı ikinci sürümü wsl2 ise bir sene önce piyasaya sürüldü. Ben ise wsl&amp;rsquo;i yaklaşık 3 aydır kullanıyorum ilk deneyimlerim ise gayet sorunsuzdu. Şuan kişisel projelerimde geliştirme ortamı olarak tamamen WSL kullanıyorum. Öncesinde geliştirme ortamı olarak kullandığım dual-boot linuxuma girmeme nerdeyse hiç gerek kalmadı diyebilirim. Windows WSL ile beni kendine kazandı. Bu yazımda ise Visual Studio Code ve WSL ve Windows terminal uygulamaları kullanarak kendimize işlevsel ve hoş görünümlü bir geliştirme ortamı hazırlayacağımızı anlatmaya çalışacağım." />
+<meta property="og:description" content="WSL, yani Windows Subsystem for Linux&amp;rsquo;un ilk sürümü yaklaşık 4 sene önce son kararlı ikinci sürümü wsl2 ise bir sene önce piyasaya sürüldü. Ben ise wsl&amp;rsquo;i yaklaşık 3 aydır kullanıyorum ilk deneyimlerim ise gayet sorunsuzdu. Şuan kişisel projelerimde geliştirme ortamı olarak tamamen WSL kullanıyorum. Öncesinde geliştirme ortamı olarak kullandığım dual-boot linuxuma girmeme nerdeyse hiç gerek kalmadı diyebilirim. Windows WSL ile beni kendine kazandı. Bu yazımda ise Visual Studio Code ve WSL ve Windows terminal uygulamaları kullanarak kendimize işlevsel ve hoş görünümlü bir geliştirme ortamı hazırlayacağımızı anlatmaya çalışacağım." />
 <meta property="og:url" content="https://isaes.com.tr/tr/posts/2020-09-05-setting-up-wsl-enviroment/" />
 <meta property="og:site_name" content="WSL ile Linux geliştirme ortamı hazırlama" />
 
@@ -110,9 +110,9 @@
       </ul>
       <ul class="language-selector__more hidden">
         
-        <li><a href="https://isaes.com.tr/">EN</a></li>
-        
         <li><a href="https://isaes.com.tr/tr/">TR</a></li>
+        
+        <li><a href="https://isaes.com.tr/">EN</a></li>
         
       </ul>
     </ul>
@@ -129,11 +129,11 @@
     <hr />
         
           <li>
-            <a href="https://isaes.com.tr/">EN</a>
+            <a href="https://isaes.com.tr/tr/">TR</a>
           </li>
         
           <li>
-            <a href="https://isaes.com.tr/tr/">TR</a>
+            <a href="https://isaes.com.tr/">EN</a>
           </li>
         
     
@@ -155,7 +155,7 @@
       2020-08-29
       
     </span>
-    
+     - ⏰ 4 min
     
   </div>
 
@@ -166,7 +166,7 @@
   
 
   <div class="post-content"><div>
-      <p>WSL yani Windows Subsystem for Linux&rsquo;in ilk sürümü yaklaşık 4 sene önce son kararlı ikinci sürümü wsl2 ise bir sene önce piyasaya sürüldü.
+      <p>WSL, yani Windows Subsystem for Linux&rsquo;un ilk sürümü yaklaşık 4 sene önce son kararlı ikinci sürümü wsl2 ise bir sene önce piyasaya sürüldü.
 Ben ise wsl&rsquo;i yaklaşık 3 aydır kullanıyorum ilk deneyimlerim ise gayet sorunsuzdu. Şuan kişisel projelerimde geliştirme ortamı olarak tamamen WSL kullanıyorum.
 Öncesinde geliştirme ortamı olarak kullandığım dual-boot linuxuma girmeme nerdeyse hiç gerek kalmadı diyebilirim. Windows WSL ile beni kendine kazandı. Bu yazımda ise
 Visual Studio Code ve WSL ve Windows terminal uygulamaları kullanarak kendimize işlevsel ve hoş görünümlü bir geliştirme ortamı hazırlayacağımızı anlatmaya çalışacağım.</p>
@@ -232,13 +232,26 @@ Daha sonra isterseniz wsl2 kernel ile değiştirebilirsiniz. wsl1 ile wsl2 aras�
 </tr>
 </tbody>
 </table>
+<div>
+  <style>
+  table th:first-of-type {
+      width: 50%;
+  }
+  table th:nth-of-type(2) {
+      width: 10%;
+  }
+  table th:nth-of-type(3) {
+      width: 10%;
+  }
+  </style>
+</div>
 <h2 id="windows-terminal">Windows Terminal<a href="#windows-terminal" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <p>Windowsta birçok terminal emülatör olarak kullanabileceğiniz program bulunmakta (başta termius, hyper vb.) bu programların bir çoğu size çok geniş özelliler sağlıyor ve ekstra eklentiler ekleyerek  özelliklerini genişletebilmezi sağlıyor fakat windows bir çoğu typescript html css ile geliştirildiği için çok fazla ram kullanımına sahipler ve kullanmadığım bir sürü özellik ile birlikte geliyorlar. Bunun gibi sebepler ile windows terminali tercih ettim. Bu terminal emülatörü haricinde önerbileceğim rust ile geliştirilen alacritty var.</p>
-<p>Windows Terminali kurduğumuzda zaman wsl seçeneklere otomatik olarak ekleniyor fakat bunu varsayılan olarak ayarlamak istersek settings.json içerişnde bulunan <code>defaultProfile</code>
+<p>Windows Terminali kurduğumuzda wsl seçeneklere otomatik olarak ekleniyor fakat bunu varsayılan olarak ayarlamak istersek settings.json içerişnde bulunan <code>defaultProfile</code>
 kendi wls ortamımızın guid&rsquo;isini girmemiz gerek. Bunu aynı sayfada ayarlar içerisinden profiles&rsquo;in <code>guid</code> seçeneğinde bulabiliriz.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#e6db74">&#34;defaultProfile&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;{2c4de342-38b7-51cf-b940-2309a097f518}&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
 </code></pre></div><h2 id="visual-studio-code">Visual Studio Code<a href="#visual-studio-code" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
-<p>VSCode ile WSL beraber kullanabilmemiz için kurmamamız gereken bir adet eklenti paketi var. Remote Development eklenti paketi sizin. Remote - WSL Remote-SSH ve Remote Containers paketlerini kuracak. Kurulumlar tamamlandıktan ve etkin hale getirdikten sonra Remote Explorer sekmesinden istediğiniz klasöre bağlananbilirsiniz.</p>
+<p>VSCode ile WSL beraber kullanabilmemiz için kurmamamız gereken bir adet eklenti paketi var. Remote Development eklenti paketi sizin için Remote - WSL Remote-SSH ve Remote Containers paketlerini kuracak. Kurulumlar tamamlandıktan ve etkin hale getirdikten sonra Remote Explorer sekmesinden istediğiniz klasöre bağlanabilirsiniz.</p>
 <p>
 <img class="center" src="/img/2020-09-05-wsl/connect-wsl.png" alt="WSL-Store">
 </p>
@@ -246,7 +259,7 @@ kendi wls ortamımızın guid&rsquo;isini girmemiz gerek. Bunu aynı sayfada aya
 <p><strong><em><code>İpucu: code -r {dosyadı} ile wsl bağlatısı açık olan wsl ekranınada dosyanızı açıp editleyebilrisiniz.</code></em></strong></p>
 <p>Bu kurulumuları ve ayarları NodeJs,Go,React veya Vue gibi kütüphane ve yazılım sistemlerini kullarak geliştirdiğim kişisel projeler için kullanıyorum. Buradan sonra yazacaklarım. WSLde bash yerine zsh kullanma ve vscode ile entegre etme ve fontFace ayarlama ile ilgili olacak. Aslında gerekli temel kurulumlar bu kadar.</p>
 <h2 id="wsl-ubuntuya-zsh-kurulumu">WSL Ubuntu`ya zsh kurulumu<a href="#wsl-ubuntuya-zsh-kurulumu" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
-<p>Temelde kurulum normal bir Ubuntu&rsquo;dan farklı olmayacak. zsh ve oh-my-zsh kuracağız. Ve theme olarak agnoster themesini kullanacağız.</p>
+<p>Temelde kurulum normal bir Ubuntu&rsquo;dan farklı olmayacak. zsh ve oh-my-zsh kuracağız. Ve tema olarak agnoster temasını kullanacağız.</p>
 <ul>
 <li>
 <p>zsh kurulumu</p>
@@ -273,8 +286,8 @@ Ben OSX&rsquo;in Menlo yazı tipinin for Powerline için editlenmiş halini kull
 <span style="color:#e6db74">&#34;terminal.integrated.fontFamily&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;Menlo for Powerline&#34;</span><span style="color:#960050;background-color:#1e0010">,</span>
 </code></pre></div></li>
 <li>
-<p>Windows Terminal Ayarları
-commandline ve fontFace alanlarını editlemeniz gerekiyor <code>wsl.exe ~ zsh</code> ayarı bize başlangıçta bash yerine zsh ile başlatmamızı sağlıyor.</p>
+<p>Windows Terminal Ayarları</p>
+<p>commandline ve fontFace alanlarını editlemeniz gerekiyor <code>wsl.exe ~ zsh</code> ayarı bize başlangıçta bash yerine zsh ile başlatmamızı sağlıyor.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#e6db74">&#34;profiles&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> [
     {
       <span style="color:#f92672">&#34;hidden&#34;</span>: <span style="color:#66d9ef">false</span>,
@@ -298,19 +311,6 @@ POWERLEVEL9K_SHORTEN_DIR_LENGTH<span style="color:#f92672">=</span><span style="
 </p>
 <p>Sonuç olarak windowsta iken linux kullanarak geliştirme yapmak gayet güzel öğrenci iseniz yada kişisel projeler yapıyorsanız size Yeni aldığınız laptoplara çift önyükleme ayarlamak yerine<br>
 bu şekilde kullanmak çok ideal. Wsl aynı zamanda bu hazırlamış olduğunuz distroları export alıp farklı bilgisayarlara taşımanızıda sağlıyor. Wsl için bir kere geliştirme ortamınızı sağladıktan sonra başka bilgisayarlarada çok kolay bir şekilde taşıyabilirsiniz.</p>
-<div>
-  <style>
-  table th:first-of-type {
-      width: 50%;
-  }
-  table th:nth-of-type(2) {
-      width: 10%;
-  }
-  table th:nth-of-type(3) {
-      width: 10%;
-  }
-  </style>
-</div>
 <h2 id="kaynaklar">Kaynaklar<a href="#kaynaklar" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <ul>
 <li><a href="https://ohmyz.sh/#install">ohmyz.sh</a></li>

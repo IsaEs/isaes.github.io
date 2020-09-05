@@ -3,8 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://isaes.com.tr/posts/2020-08-14-file-operation-examples-in-nodejs/</loc>
+    <lastmod>2020-08-14T18:43:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://isaes.com.tr/tr/posts/2020-08-14-file-operation-examples-in-nodejs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://isaes.com.tr/posts/2020-08-14-file-operation-examples-in-nodejs/"
+                />
+  </url>
+  
+  <url>
     <loc>https://isaes.com.tr/</loc>
-    <lastmod>2020-08-29T11:39:00+03:00</lastmod>
+    <lastmod>2020-08-14T18:43:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tr"
@@ -19,7 +34,7 @@
   
   <url>
     <loc>https://isaes.com.tr/posts/</loc>
-    <lastmod>2020-08-29T11:39:00+03:00</lastmod>
+    <lastmod>2020-08-14T18:43:00+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tr"
@@ -29,36 +44,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://isaes.com.tr/posts/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://isaes.com.tr/posts/2020-09-05-setting-up-wsl-enviroment/</loc>
-    <lastmod>2020-08-29T11:39:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://isaes.com.tr/tr/posts/2020-09-05-setting-up-wsl-enviroment/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://isaes.com.tr/posts/2020-09-05-setting-up-wsl-enviroment/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://isaes.com.tr/posts/2020-08-14-file-operation-examples-in-nodejs/</loc>
-    <lastmod>2020-08-14T18:43:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://isaes.com.tr/tr/posts/2020-08-14-file-operation-examples-in-nodejs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://isaes.com.tr/posts/2020-08-14-file-operation-examples-in-nodejs/"
                 />
   </url>
   
