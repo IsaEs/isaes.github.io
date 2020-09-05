@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>WSL ile Linux geliştirme ortamı hazırlama :: IsaEs</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="WSL yani Windows Subsystem for Linux&amp;rsquo;in ilk sürümü yaklaşık 4 sene önce son kararlı ikinci sürümü wsl2 ise bir sene önce piyasaya sürüldü. Ben ise wsl&amp;rsquo;i yaklaşık 3 aydır kullanıyorum ilk deneyimlerim ise gayet sorunsuzdu. Şuan kişisel projelerimde geliştirme ortamı olarak tamamen WSL kullanıyorum. Öncesinde geliştirme ortamı olarak kullandığım dual-boot linuxuma girmeme nerdeyse hiç gerek kalmadı diyebilirim. Windows WSL ile beni kendine kazandı. Bu yazımda ise Visual Studio Code ve WSL ve Windows terminal uygulamaları kullanarak kendimize işlevsel ve hoş görünümlü bir geliştirme ortamı hazırlayacağımızı anlatmaya çalışacağım." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://isaes.com.tr/posts/2020-09-05-setting-up-wsl-enviroment/" />
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://isaes.com.tr/css/style.min.css">
+
+
+  
+  
+  <link rel="stylesheet" href="https://isaes.com.tr/css/color/red.min.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://isaes.com.tr/img/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="https://isaes.com.tr/img/favicon/red.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="WSL ile Linux geliştirme ortamı hazırlama :: IsaEs">
+<meta property="og:description" content="WSL yani Windows Subsystem for Linux&amp;rsquo;in ilk sürümü yaklaşık 4 sene önce son kararlı ikinci sürümü wsl2 ise bir sene önce piyasaya sürüldü. Ben ise wsl&amp;rsquo;i yaklaşık 3 aydır kullanıyorum ilk deneyimlerim ise gayet sorunsuzdu. Şuan kişisel projelerimde geliştirme ortamı olarak tamamen WSL kullanıyorum. Öncesinde geliştirme ortamı olarak kullandığım dual-boot linuxuma girmeme nerdeyse hiç gerek kalmadı diyebilirim. Windows WSL ile beni kendine kazandı. Bu yazımda ise Visual Studio Code ve WSL ve Windows terminal uygulamaları kullanarak kendimize işlevsel ve hoş görünümlü bir geliştirme ortamı hazırlayacağımızı anlatmaya çalışacağım." />
+<meta property="og:url" content="https://isaes.com.tr/posts/2020-09-05-setting-up-wsl-enviroment/" />
+<meta property="og:site_name" content="WSL ile Linux geliştirme ortamı hazırlama" />
+
+  
+    <meta property="og:image" content="https://isaes.com.tr/img/favicon/red.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2020-08-29 11:39:00 &#43;0300 &#43;03" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="red">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    ~/IsaEs
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+      
+    
+
+    
+    <div class="spacer"></div>
+    <ul class="language-selector">
+      <ul class="language-selector-current">
+          <li>EN ▾</li>
+      </ul>
+      <ul class="language-selector__more hidden">
+        
+        <li><a href="https://isaes.com.tr/">EN</a></li>
+        
+        <li><a href="https://isaes.com.tr/tr/">TR</a></li>
+        
+      </ul>
+    </ul>
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+    
+    <hr />
+        
+          <li>
+            <a href="https://isaes.com.tr/">EN</a>
+          </li>
+        
+          <li>
+            <a href="https://isaes.com.tr/tr/">TR</a>
+          </li>
+        
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="https://isaes.com.tr/posts/2020-09-05-setting-up-wsl-enviroment/">WSL ile Linux geliştirme ortamı hazırlama</a></h1>
+  <div class="post-meta">
+    
+    <span class="post-date">
+      2020-08-29
+      
+    </span>
+    
+    
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="post-content"><div>
+      <p>WSL yani Windows Subsystem for Linux&rsquo;in ilk sürümü yaklaşık 4 sene önce son kararlı ikinci sürümü wsl2 ise bir sene önce piyasaya sürüldü.
+Ben ise wsl&rsquo;i yaklaşık 3 aydır kullanıyorum ilk deneyimlerim ise gayet sorunsuzdu. Şuan kişisel projelerimde geliştirme ortamı olarak tamamen WSL kullanıyorum.
+Öncesinde geliştirme ortamı olarak kullandığım dual-boot linuxuma girmeme nerdeyse hiç gerek kalmadı diyebilirim. Windows WSL ile beni kendine kazandı. Bu yazımda ise
+Visual Studio Code ve WSL ve Windows terminal uygulamaları kullanarak kendimize işlevsel ve hoş görünümlü bir geliştirme ortamı hazırlayacağımızı anlatmaya çalışacağım.</p>
+<h2 id="wsl-etkinleştirme">WSL etkinleştirme<a href="#wsl-etkinleştirme" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Linux distro seçimine başlamadan önce ve linux kurulumuna başlamadan önce WSL özelliğini etkinleştirmemiz gerek bunun için Windows tuşuna bastıktan sonra Powershell yazarak Powershell uygulamasını admin olarak çalıştırma seçeneğini seçmemiz gerekiyor ve aşağıdaki komutu çalıştırmamız gerekiyor. Kısaca PowerShelli administratör olarak başlatın ve aşağıdaki komutu çalıştırarak wls aktif edin ve windowsu restartlayın.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-PowerShell" data-lang="PowerShell">dism.exe /online /enable-feature /featurename<span style="color:#960050;background-color:#1e0010">:</span>VirtualMachinePlatform /all /norestart
+</code></pre></div><p>
+<img class="center" src="/img/activate.png" alt="Activation">
+</p>
+<h2 id="wsl-linux-dağıtımı-seçimi">WSL Linux Dağıtımı seçimi<a href="#wsl-linux-dağıtımı-seçimi" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Windowsa restart attıktan sonra Microsoft Store`da wsl kelimesini ile aratarak ücretsiz linux dağıtımlarına kolaylıkla ulaşıp kurabiliriz.</p>
+<p>
+<img class="center" src="/img/wsl-store.png" alt="WSL-Store">
+</p>
+<h2 id="linux-dağıtımı-ve-wsl-kernel-kontrolü">Linux Dağıtımı ve WSL kernel kontrolü<a href="#linux-dağıtımı-ve-wsl-kernel-kontrolü" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>Kurulumu yaptıktan sonra komut satırında  <code>wsl -l -v</code> komutunun çalıştırarak linux distrolarınızı ve çalıştığı wsl  kernel versiyonunu görüntüleyebilirsiniz.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-PowerShell" data-lang="PowerShell">wsl -l -v
+</code></pre></div><p>Eğer bu komut  çalışmıyor ve hata veriyorsa windows sürümünüz wsl2 desteklemiyordur. Windows wsl`in ikinci versiyonunu kullanmayi onersede biz ilk version ile devam edecegiz
+sonrasinda isterseniz wsl2 kernel ile degistirebilirsiniz. wsl1 ile wsl2 arasindaki ozellik farklarini asagidali tabloda</p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>WSL 1</th>
+<th>WSL 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Integration between Windows and Linux</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Fast boot times</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Small resource foot print</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Runs with current versions of VMWare and VirtualBox</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Managed VM</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Full Linux Kernel</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Full system call compatibility</td>
+<td>❌</td>
+<td>✅</td>
+</tr>
+<tr>
+<td>Performance across OS file systems</td>
+<td>✅</td>
+<td>❌</td>
+</tr>
+</tbody>
+</table>
+
+    </div></div>
+
+  
+  
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        
+        <span class="button next">
+            <a href="https://isaes.com.tr/posts/2020-08-14-file-operation-examples-in-nodejs/">
+                <span class="button__text">File operation examples in NodeJs</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "isaes" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2020 Isa Es </span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script src="https://isaes.com.tr/js/menu.js"></script>
+<script src="https://isaes.com.tr/js/prism.js"></script>
+
+
+<script src="https://isaes.com.tr/js/languageSelector.js"></script>
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
