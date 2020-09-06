@@ -33,8 +33,48 @@
   </url>
   
   <url>
+    <loc>https://isaes.com.tr/tr/tags/</loc>
+    <lastmod>2020-08-29T11:39:00+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://isaes.com.tr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://isaes.com.tr/tr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://isaes.com.tr/tr/tags/windows-terminal/</loc>
+    <lastmod>2020-08-29T11:39:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaes.com.tr/tr/tags/wsl/</loc>
+    <lastmod>2020-08-29T11:39:00+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://isaes.com.tr/tr/posts/2020-09-05-setting-up-wsl-enviroment/</loc>
     <lastmod>2020-08-29T11:39:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaes.com.tr/tr/tags/zsh/</loc>
+    <lastmod>2020-08-29T11:39:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaes.com.tr/tr/tags/fs/</loc>
+    <lastmod>2020-08-14T18:43:00+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaes.com.tr/tr/tags/nodejs/</loc>
+    <lastmod>2020-08-14T18:43:00+03:00</lastmod>
   </url>
   
   <url>
@@ -83,21 +123,6 @@
   </url>
   
   <url>
-    <loc>https://isaes.com.tr/tr/tags/</loc>
-    <lastmod>2019-03-09T21:59:00+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://isaes.com.tr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://isaes.com.tr/tr/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>https://isaes.com.tr/tr/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -113,6 +138,16 @@
   
   <url>
     <loc>https://isaes.com.tr/tr/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://isaes.com.tr/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://isaes.com.tr/tr/about/"
+                />
   </url>
   
 </urlset>

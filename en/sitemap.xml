@@ -108,6 +108,16 @@
   
   <url>
     <loc>https://isaes.com.tr/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://isaes.com.tr/tr/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://isaes.com.tr/about/"
+                />
   </url>
   
 </urlset>

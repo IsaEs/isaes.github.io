@@ -6,10 +6,55 @@
     <description>Recent content in Tags on IsaEs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Mar 2019 21:59:00 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2020 11:39:00 +0300</lastBuildDate>
     
 	<atom:link href="https://isaes.com.tr/tr/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Windows Terminal</title>
+      <link>https://isaes.com.tr/tr/tags/windows-terminal/</link>
+      <pubDate>Sat, 29 Aug 2020 11:39:00 +0300</pubDate>
+      
+      <guid>https://isaes.com.tr/tr/tags/windows-terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wsl</title>
+      <link>https://isaes.com.tr/tr/tags/wsl/</link>
+      <pubDate>Sat, 29 Aug 2020 11:39:00 +0300</pubDate>
+      
+      <guid>https://isaes.com.tr/tr/tags/wsl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>zsh</title>
+      <link>https://isaes.com.tr/tr/tags/zsh/</link>
+      <pubDate>Sat, 29 Aug 2020 11:39:00 +0300</pubDate>
+      
+      <guid>https://isaes.com.tr/tr/tags/zsh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fs</title>
+      <link>https://isaes.com.tr/tr/tags/fs/</link>
+      <pubDate>Fri, 14 Aug 2020 18:43:00 +0300</pubDate>
+      
+      <guid>https://isaes.com.tr/tr/tags/fs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nodejs</title>
+      <link>https://isaes.com.tr/tr/tags/nodejs/</link>
+      <pubDate>Fri, 14 Aug 2020 18:43:00 +0300</pubDate>
+      
+      <guid>https://isaes.com.tr/tr/tags/nodejs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>git</title>

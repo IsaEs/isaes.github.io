@@ -12,6 +12,19 @@
 <link rel="canonical" href="https://isaes.com.tr/tr/posts/2020-09-05-setting-up-wsl-enviroment/" />
 
 
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-88477606-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
 
 
 
@@ -160,12 +173,20 @@
     - ⏰ 4 min
     
     
-    
-    
     <span class="post-author">:: IsaEs</span>
     
   </div>
 
+  
+  <span class="post-tags">
+    
+    #<a href="https://isaes.com.tr/tr/tags/wsl/">wsl</a>&nbsp;
+    
+    #<a href="https://isaes.com.tr/tr/tags/zsh/">zsh</a>&nbsp;
+    
+    #<a href="https://isaes.com.tr/tr/tags/windows-terminal/">Windows Terminal</a>&nbsp;
+    
+  </span>
   
 
   
@@ -203,12 +224,12 @@ Daha sonra isterseniz wsl2 kernel ile değiştirebilirsiniz. wsl1 ile wsl2 aras�
 </thead>
 <tbody>
 <tr>
-<td align="left">Integration between Windows and Linux</td>
+<td align="left">Windows and Linux arasındaki uyum</td>
 <td align="center">✅</td>
 <td align="center">✅</td>
 </tr>
 <tr>
-<td align="left">Hizli onyukleme</td>
+<td align="left">Hızlı önyükleme</td>
 <td align="center">✅</td>
 <td align="center">✅</td>
 </tr>
@@ -218,7 +239,7 @@ Daha sonra isterseniz wsl2 kernel ile değiştirebilirsiniz. wsl1 ile wsl2 aras�
 <td align="center">✅</td>
 </tr>
 <tr>
-<td align="left">VMWare ve VirtualBox ile birlikte kullanilabilme</td>
+<td align="left">VMWare ve VirtualBox ile birlikte kullanılabilme</td>
 <td align="center">✅</td>
 <td align="center">✅</td>
 </tr>
@@ -228,12 +249,12 @@ Daha sonra isterseniz wsl2 kernel ile değiştirebilirsiniz. wsl1 ile wsl2 aras�
 <td align="center">✅</td>
 </tr>
 <tr>
-<td align="left">Butun system cagri destegi uygunlugu</td>
+<td align="left">Bütün system çağrı desteği uygunluğu</td>
 <td align="center">❌</td>
 <td align="center">✅</td>
 </tr>
 <tr>
-<td align="left">Isletim sistemlerinin dosya sistemleri arasindaki performans</td>
+<td align="left">İşletim sistemlerinin dosya sistemleri arasındaki performans</td>
 <td align="center">✅</td>
 <td align="center">❌</td>
 </tr>
@@ -262,8 +283,8 @@ kendi wls ortamımızın guid&rsquo;isini girmemiz gerek. Bunu aynı sayfada aya
 <p>
 <img class="center" src="/img/2020-09-05-wsl/connect-wsl.png" alt="WSL-Store">
 </p>
-<p>Yada terminalde iken bulunduğunuz folderi VSCode ile açmak için <code>code .</code> komutunu kullanabilirsniz. Bu şekilde VSCode bulunduğunuz klasörde başlayacaktır.</p>
-<p><strong><em><code>İpucu: code -r {dosyadı} ile wsl bağlatısı açık olan wsl ekranınada dosyanızı açıp editleyebilrisiniz.</code></em></strong></p>
+<p>Yada terminalde iken bulunduğunuz folderi VSCode ile açmak için <code>code .</code> komutunu kullanabilirsiniz. Bu şekilde VSCode bulunduğunuz klasörde başlayacaktır.</p>
+<p><strong><em><code>İpucu: code -r {dosyadı} komutu ile wsl bağlatısı yapılarak açılmış olan vscode ekranında  yeni bir sekme ile dosyanızı açıp düzenleyebilrisiniz.</code></em></strong></p>
 <p>Bu kurulumuları ve ayarları NodeJs,Go,React veya Vue gibi kütüphane ve yazılım sistemlerini kullarak geliştirdiğim kişisel projeler için kullanıyorum. Buradan sonra yazacaklarım. WSLde bash yerine zsh kullanma ve vscode ile entegre etme ve fontFace ayarlama ile ilgili olacak. Aslında gerekli temel kurulumlar bu kadar.</p>
 <h2 id="wsl-ubuntuya-zsh-kurulumu">WSL Ubuntu`ya zsh kurulumu<a href="#wsl-ubuntuya-zsh-kurulumu" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <p>Temelde kurulum normal bir Ubuntu&rsquo;dan farklı olmayacak. zsh ve oh-my-zsh kuracağız. Ve tema olarak agnoster temasını kullanacağız.</p>
